@@ -30,18 +30,40 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Local testing / cache
-.cache/
-vite.config.timestamp-*
+# TypeScript build info
+*.tsbuildinfo
+
+# Vite cache
 .vite/
+vite.config.timestamp-*
+
+# Temporary files
+*.bak
+*.tmp
 *.local
 *.log
 
-# Optional: macOS/Linux temporary files
-*.bak
-*.tmp
+# Testing / coverage
+coverage/
+*.spec.ts
+*.test.ts
+*.test.js
 
-# Optional: lock files (ถ้าไม่ต้องการแชร์ระหว่างเครื่อง dev)
+# Optional lock files (ถ้าไม่อยากแชร์ระหว่างเครื่อง dev)
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+
+# OS-specific
+ehthumbs.db
+Icon?
+
+# macOS
+.AppleDouble
+.LSOverride
+
+# Docker / Deploy configs (ถ้ามี)
+.docker/
+docker-compose.override.yml
+.vercel/
+.netlify/
