@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local testing / cache
+.cache/
+vite.config.timestamp-*
+.vite/
+*.local
+*.log
+
+# Optional: macOS/Linux temporary files
+*.bak
+*.tmp
+
+# Optional: lock files (ถ้าไม่ต้องการแชร์ระหว่างเครื่อง dev)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
